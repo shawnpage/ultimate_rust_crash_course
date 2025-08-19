@@ -15,6 +15,8 @@ pub fn ding(x: i32) {
 pub fn on_off(val: bool) {
     if val {
         println!("Lights are on!");
+    } else {
+        println!("Lights are off!");
     }
 }
 
